@@ -39,7 +39,7 @@ proxool {
 
 Proxool config accepts the following properties:
 
-proxool {
+
     alias
         Proxool pool alias name (default: grails-pool). The jdbc connection url pattern is proxool.<alias>
         
@@ -161,4 +161,3 @@ proxool {
             other properties are populated to jdbc driver
     }
         
-}
