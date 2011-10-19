@@ -1,8 +1,7 @@
-import grails.util.GrailsUtil;
+import grails.util.GrailsUtil
 
-import org.apache.commons.lang.StringUtils;
+import org.apache.commons.lang.StringUtils
 import org.apache.log4j.Logger
-import org.groovydev.ProxoolService;
 import org.logicalcobwebs.proxool.ProxoolFacade
 
 class ProxoolGrailsPlugin {
@@ -10,7 +9,7 @@ class ProxoolGrailsPlugin {
     Logger log = Logger.getLogger('grails.plugins.proxool.ProxoolGrailsPlugin')
     
     // the plugin version
-    def version = "0.2"
+    def version = "0.3"
     // the version or versions of Grails the plugin is designed for
     def grailsVersion = "1.3.7 > *"
     // the other plugins this plugin depends on
@@ -27,8 +26,10 @@ class ProxoolGrailsPlugin {
     def title = "Proxool jdbc connection pool plugin"
     def description = 'Grails plugin for proxool jdbc connection pool.'
 
-    // URL to the plugin's documentation
-    def documentation = "http://grails.org/plugin/proxool"
+    def documentation = "https://github.com/groovydev/proxool-grails-plugin/blob/master/README.md"
+    def license = "APACHE"
+    def issueManagement = [ system: "github", url: "https://github.com/groovydev/proxool-grails-plugin/issues" ]
+    def scm = [ url: "https://github.com/groovydev/proxool-grails-plugin" ]
 
     def doWithSpring = {
         

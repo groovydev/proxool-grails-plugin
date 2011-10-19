@@ -1,9 +1,9 @@
-<plugin name='proxool' version='0.2' grailsVersion='1.3.7 &gt; *'>
+<plugin name='proxool' version='0.3' grailsVersion='1.3.7 &gt; *'>
   <author>Karol Balejko</author>
   <authorEmail>kb@groovydev.org</authorEmail>
   <title>Proxool jdbc connection pool plugin</title>
   <description>Grails plugin for proxool jdbc connection pool.</description>
-  <documentation>http://grails.org/plugin/proxool</documentation>
+  <documentation>https://github.com/groovydev/proxool-grails-plugin/blob/master/README.md</documentation>
   <resources>
     <resource>BuildConfig</resource>
     <resource>Config</resource>
